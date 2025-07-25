@@ -10,11 +10,13 @@ import Blog from "@/components/Blog";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import WaterBubbles from "@/components/WaterBubbles";
+import CursorWaves from "@/components/CursorWaves";
 
 const Index = () => {
   return (
     <div className="min-h-screen relative">
       <WaterBubbles />
+      <CursorWaves />
       <Navigation />
       <Hero />
       <About />
