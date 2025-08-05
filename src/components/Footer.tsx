@@ -4,7 +4,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="text-center">
           <p className="text-muted-foreground">
-            © 2024 Davis Portfolio. All rights reserved.
+            © 2024 Kawsar Portfolio. All rights reserved.
           </p>
           <p className="text-sm text-muted-foreground mt-2">
             Built with React, TypeScript & Tailwind CSS

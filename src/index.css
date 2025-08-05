@@ -18,7 +18,7 @@ All colors MUST be HSL.
     --popover: 220 26% 10%;
     --popover-foreground: 0 0% 95%;
 
-    --primary: 42 100% 58%;
+    --primary: 158 85% 45%;
     --primary-foreground: 220 26% 8%;
 
     --secondary: 220 26% 15%;
@@ -27,7 +27,7 @@ All colors MUST be HSL.
     --muted: 220 26% 15%;
     --muted-foreground: 0 0% 70%;
 
-    --accent: 42 100% 58%;
+    --accent: 158 85% 45%;
     --accent-foreground: 220 26% 8%;
 
     --destructive: 0 84.2% 60.2%;
@@ -35,15 +35,15 @@ All colors MUST be HSL.
 
     --border: 220 26% 20%;
     --input: 220 26% 20%;
-    --ring: 42 100% 58%;
+    --ring: 158 85% 45%;
 
     --radius: 0.75rem;
 
     /* Custom portfolio colors */
     --portfolio-dark: 220 26% 8%;
     --portfolio-darker: 220 30% 5%;
-    --portfolio-accent: 42 100% 58%;
-    --portfolio-accent-dim: 42 80% 45%;
+    --portfolio-accent: 158 85% 45%;
+    --portfolio-accent-dim: 158 70% 35%;
     --portfolio-text: 0 0% 95%;
     --portfolio-text-muted: 0 0% 70%;
     --portfolio-border: 220 26% 20%;
@@ -76,7 +76,7 @@ All colors MUST be HSL.
     --popover: 220 26% 10%;
     --popover-foreground: 0 0% 95%;
 
-    --primary: 42 100% 58%;
+    --primary: 158 85% 45%;
     --primary-foreground: 220 26% 8%;
 
     --secondary: 220 26% 15%;
@@ -85,7 +85,7 @@ All colors MUST be HSL.
     --muted: 220 26% 15%;
     --muted-foreground: 0 0% 70%;
 
-    --accent: 42 100% 58%;
+    --accent: 158 85% 45%;
     --accent-foreground: 220 26% 8%;
 
     --destructive: 0 62.8% 30.6%;
@@ -93,7 +93,7 @@ All colors MUST be HSL.
 
     --border: 220 26% 20%;
     --input: 220 26% 20%;
-    --ring: 42 100% 58%;
+    --ring: 158 85% 45%;
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
@@ -278,5 +278,21 @@ All colors MUST be HSL.
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+  }
+
+  /* Animations */
+  @keyframes fade-in-up {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .animate-fade-in {
+    animation: fade-in-up 0.6s ease-out forwards;
   }
 }

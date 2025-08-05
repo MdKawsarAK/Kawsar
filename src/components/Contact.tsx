@@ -24,7 +24,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="text-foreground font-semibold mb-1">Email</h4>
-                  <p className="text-muted-foreground">devis@example.com</p>
+                  <p className="text-muted-foreground">kawsark.com@gmail.com</p>
                 </div>
               </div>
 
@@ -34,7 +34,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="text-foreground font-semibold mb-1">Phone</h4>
-                  <p className="text-muted-foreground">+1 876-369-9009</p>
+                  <p className="text-muted-foreground">+8801719507591</p>
                 </div>
               </div>
 
@@ -44,7 +44,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="text-foreground font-semibold mb-1">Address</h4>
-                  <p className="text-muted-foreground">2661 Hich meadow lane bear creek</p>
+                  <p className="text-muted-foreground">Charghat, Rajshahi</p>
                 </div>
               </div>
             </div>
@@ -53,13 +53,13 @@ const Contact = () => {
             <div className="mt-8">
               <h4 className="text-foreground font-semibold mb-4">Follow me</h4>
               <div className="flex space-x-4">
-                <a href="#" className="w-10 h-10 bg-secondary hover:bg-primary transition-colors duration-300 rounded-full flex items-center justify-center group">
+                <a href="https://www.facebook.com/Kawsarhossain.AK/" className="w-10 h-10 bg-secondary hover:bg-primary transition-colors duration-300 rounded-full flex items-center justify-center group">
                   <span className="text-muted-foreground group-hover:text-primary-foreground">f</span>
                 </a>
-                <a href="#" className="w-10 h-10 bg-secondary hover:bg-primary transition-colors duration-300 rounded-full flex items-center justify-center group">
-                  <span className="text-muted-foreground group-hover:text-primary-foreground">t</span>
+                <a href="https://github.com/MdKawsarAK" className="w-10 h-10 bg-secondary hover:bg-primary transition-colors duration-300 rounded-full flex items-center justify-center group">
+                  <span className="text-muted-foreground group-hover:text-primary-foreground">g</span>
                 </a>
-                <a href="#" className="w-10 h-10 bg-secondary hover:bg-primary transition-colors duration-300 rounded-full flex items-center justify-center group">
+                <a href="https://www.linkedin.com/in/kawsarhossain-ak/" className="w-10 h-10 bg-secondary hover:bg-primary transition-colors duration-300 rounded-full flex items-center justify-center group">
                   <span className="text-muted-foreground group-hover:text-primary-foreground">in</span>
                 </a>
               </div>

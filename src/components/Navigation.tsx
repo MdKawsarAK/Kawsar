@@ -28,9 +28,9 @@ const Navigation = () => {
           {/* Logo */}
           <div className="flex items-center space-x-2">
             <div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-sm">D</span>
+              <span className="text-primary-foreground font-bold text-sm">K</span>
             </div>
-            <span className="text-xl font-bold text-foreground">Davis</span>
+            <span className="text-xl font-bold text-foreground">Kawsar</span>
           </div>
 
           {/* Navigation Menu */}
@@ -54,7 +54,7 @@ const Navigation = () => {
           {/* Contact Info */}
           <div className="hidden lg:flex items-center text-sm text-muted-foreground">
             <span className="mr-2">📞</span>
-            <span>+1 971 234 1508</span>
+            <span>+8801719507591</span>
           </div>
 
           {/* Mobile Menu Button */}
